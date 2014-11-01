@@ -27,7 +27,7 @@ JSON format.Packets will be inherently JSON unless specified otherwise.
 - Packet Size - Max 2000 bytes 
 	
 #####Step 0 (Collect by two traits)
-Make a set by nid, type, datetime, s0..25 = value 
+Make a set by `nid, type, datetime, s0..25 = value`
 ```
 nid = nodeId
 did = domainId
@@ -35,7 +35,7 @@ type = {raw,head,mesh}
 datetime = {unix timestamp}
 s0..25 = {parameter name}
 ```
-value is for each parameter name
+`value` is for each parameter name
 			
 #####Aggregate hourly
 ```
@@ -67,8 +67,8 @@ CCYY-MM-DD HH
 ##3.  Formats
 
 A typical format looks like below
-- Has four parameters s0 thru s3
-- Packets would be interspersed with different nid's
+- Has four parameters `s0` thru `s3`
+- Packets would be interspersed with different `nid`'s
 
 ```
 {
